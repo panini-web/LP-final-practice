@@ -128,5 +128,51 @@ input, select {
 #eyecatch{
   background: url(../img/eyecatch.jpg) no-repeat;
   height: 600px;
-  
+  background-size: cover;
+
+}
+#eyecatch p{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+table{
+  width:50%;
+  position: relative;
+  top: 560px;
+  left: 670px;
+}
+table th,
+table td{
+  border: 1px solid black;
+  padding: 10px;
+}
+table th{
+  background-color: white;
+  color: black;
+}
+table td{
+  background-color: black;
+  color: white;
+}
+
+.mission-wrap{
+  background-color: black;
+}
+.section-title{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+p{
+  color: white;
+}
+.button a{
+  padding: 1px 1px;
+  margin: 2px 0;
+  border: solid 1px black;
+  background-color: white;
 }
