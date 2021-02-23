@@ -220,6 +220,7 @@ table td{
   position: relative;
   top: 100px;
   left: 250px;
+  z-index: 2;
 }
 .card-1 h2{
   font-weight: bold;
@@ -228,6 +229,7 @@ table td{
   position: relative;
   left: 50%;
   top: -200px;
+  z-index: 1;
 }
 .card-1 h3{
   padding-top: 10px;
@@ -257,6 +259,7 @@ table td{
   position: relative;
   top: 200px;
   left: 40%;
+  z-index: 2;
 }
 .card-2 h2{
     font-weight: bold;
@@ -272,4 +275,151 @@ table td{
   background-size: cover;
   position: relative;
   top: -200px;
+  z-index: 1;
 }
+
+.company-recruit{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.company{
+  background: url(../img/company.jpeg);
+  background-size: cover;
+  width: 45%;
+  height: 300px;
+}
+.company h1,h3{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.company h1,.recruit h1{
+  position: relative;
+  top: 50%;
+  font-size: 30px;
+}
+.company h3,.recruit h3{
+  position: relative;
+  top: 55%;
+}
+.recruit{
+  background: url(../img/recruit.jpg);
+  background-size: cover;
+  width: 45%;
+  height: 300px;
+}
+.recruit h1,h3{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.faq{
+  display: flex;
+  background-color: black;
+  width: 70%;
+  height: 150px;
+  position: relative;
+  top: 100px;
+  left: 15%;
+}
+.faq h1,.faq p{
+  color: white;
+  position: relative;
+  top: 50%;
+}
+.faq h1{
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+.faq p{
+  font-size: 20px;
+  padding-left: 35%;
+}
+
+.contact{
+  background: url(../img/contact-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  margin-top: 300px;
+}
+.contact-wrap{
+  text-align: center;
+  color: white;
+}
+.contact h1,.contact h2{
+  margin: 30px;
+}
+.contact h1{
+  position: relative;
+  top: 200px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact h2{
+  position: relative;
+  top: 210px;
+  font-size: 15px;
+}
+.contact h3{
+  position: relative;
+  top: 250px;
+  font-size: 45px;
+}
+.contact p{
+  position: relative;
+  top: 300px;
+}
+.contact-button{
+  border: 1px solid white;
+  color: white;
+  position: relative;
+  top: 350px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+.footer{
+  width: 100%;
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title{
+  font-size: 24px;
+  position: relative;
+  padding-left: 5%;
+}
+.footer-title a{
+  color: white;
+}
+.footer-nav-list{
+  display: flex;
+  margin-bottom: 20px;
+}
+.footer-nav ul{
+  display: flex;
+}
+.footer-nav li{
+  margin-right: 25px;
+  font-size: 20px;
+}
+.footer-nav a{
+  color: white;
+}
+.copyright{
+  text-align: center;
+  color: white;
+}
+
