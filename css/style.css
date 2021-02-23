@@ -130,6 +130,7 @@ input, select {
   background: url(../img/eyecatch.jpg) no-repeat;
   height: 600px;
   background-size: cover;
+  position: relative;
 
 }
 #eyecatch p{
@@ -142,9 +143,9 @@ input, select {
 }
 table{
   width:50%;
-  position: relative;
-  top: 565px;
-  left: 675px;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
 }
 table th,
 table td{
@@ -181,8 +182,9 @@ table td{
   font-weight: bold;
   position: relative;
   top: 30%;
-  left: 10%;
+  left: 100px;
 }
+
 .mission-info {
   color: white;
   width: 70%;
@@ -207,6 +209,7 @@ table td{
   height: 1500px;
   width: 100%;
   margin-top: 100px;
+  overflow: hidden;
 }
 .section-title-service{
   text-align: center;
@@ -232,8 +235,8 @@ table td{
 }
 .img-service-1{
   position: relative;
-  left: 675px;
   top: -200px;
+  left: 50%;
   z-index: 1;
 }
 .card-1 h3{
@@ -249,9 +252,10 @@ table td{
   top: 10%;
   text-decoration: none;
   color:black;
-  width: 80px;
+  width: 120px;
   height: 50px;
   outline: none;
+  margin-left: 50px;
 }
 .button{
   text-decoration: none;
