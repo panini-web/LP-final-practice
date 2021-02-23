@@ -109,6 +109,7 @@ input, select {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px;
 }
 .header-logo{
   font-size: 20px;
@@ -142,8 +143,8 @@ input, select {
 table{
   width:50%;
   position: relative;
-  top: 560px;
-  left: 670px;
+  top: 565px;
+  left: 675px;
 }
 table th,
 table td{
@@ -169,6 +170,10 @@ table td{
   position: absolute;
   top: 30%;
   left: 60%;
+}
+.orange{
+  width: 450px;
+  height: 300px;
 }
 .section-title{
   color: white;
@@ -210,7 +215,7 @@ table td{
   padding-top: 20px;
 }
 .card-1{
-  width: 500px;
+  width: 400px;
   height: 200px;
   padding: 20px 12px 10px;
   color:black;
@@ -219,7 +224,7 @@ table td{
   background-size: cover;
   position: relative;
   top: 100px;
-  left: 250px;
+  left: 300px;
   z-index: 2;
 }
 .card-1 h2{
@@ -227,7 +232,7 @@ table td{
 }
 .img-service-1{
   position: relative;
-  left: 50%;
+  left: 675px;
   top: -200px;
   z-index: 1;
 }
@@ -240,16 +245,19 @@ table td{
 }
 .service-button{
   position: relative;
-  left: 50%;
+  left: 40%;
   top: 10%;
-  border: 1px solid black;
   text-decoration: none;
   color:black;
   width: 80px;
   height: 50px;
+  outline: none;
+}
+.button{
+  text-decoration: none;
 }
 .card-2{
-  width: 500px;
+  width: 400px;
   height: 200px;
   padding: 20px 12px 10px;
   color:black;
