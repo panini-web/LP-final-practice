@@ -182,7 +182,8 @@ table td{
   font-weight: bold;
   position: relative;
   top: 30%;
-  left: 100px;
+  left: 150px;
+  width: 50%;
 }
 
 .mission-info {
